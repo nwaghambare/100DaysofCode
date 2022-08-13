@@ -38,7 +38,7 @@ print(f'Computer choice:\n{images[pc_choice]}')
 if user_choice == pc_choice:
     print("It's a DRAW.")
 elif user_choice == 0:
-    if pc_choice == 1:
+    if pc_choice == 2:
         print('You WON.')
     else:
         print('You LOST.')
